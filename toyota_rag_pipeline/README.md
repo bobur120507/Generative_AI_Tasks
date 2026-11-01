@@ -4,6 +4,8 @@ Bu loyiha — **RAG** (Retrieval-Augmented Generation — qidiruv bilan boyitilg
 
 ![Veb-sayt: savol va manbalar bilan javob](docs/images/site_answer.png)
 
+> 🎓 **Yangi boshlovchimisiz?** Chunk, overlap, embedding, retriever, RAG va boshqa tushunchalar rasmlar bilan oddiy tilda [I_EXPLAIN.md](I_EXPLAIN.md) faylida tushuntirilgan.
+
 Tizim istalgan mavzudagi kitob bilan ishlaydi. Namuna sifatida **Toyota** mavzusi olingan: Toyota ishlab chiqarish tizimi (TPS), “The Toyota Way” tamoyillari, kompaniya tarixi va gibrid texnologiyalar.
 
 Toyota manbalari internetdan **Python yordamida yuklab olinadi**: Toyota’ning rasmiy PDF hisoboti, Toyota’ning rasmiy veb-sahifasi va 10 ta Wikipedia maqolasi (to‘liq ro‘yxat — [Manbalar](#15-manbalar) bo‘limida). Ularni bitta buyruq bilan kutubxonaga qo‘shish mumkin.
@@ -302,6 +304,8 @@ toyota_rag_pipeline/
 │   ├── test_pipeline.py           ✅ 34 ta avtomatik test (internet kerak emas)
 │   └── fixtures/                  testlar uchun kichik namuna matnlar
 ├── docs/images/                   README’dagi rasmlar
+├── I_EXPLAIN.md                   🎓 Tushunchalar — yangi boshlovchilar uchun
+├── docs/explain/                  I_EXPLAIN.md rasmlari + make_figures.py
 ├── requirements.txt
 └── .env.example                   API kaliti uchun namuna
 ```
@@ -800,7 +804,7 @@ Loyiha so‘rovlarni tejash uchun qurilgan:
 
 | Amal | So‘rovlar soni |
 |---|---|
-| Saytga bitta kitob yuklash | kitob bo‘laklari soni ÷ 64 (masalan, 200 betlik kitob ≈ 600 bo‘lak ≈ 10 so‘rov) |
+| Saytga bitta kitob yuklash | kitob bo‘laklari soni ÷ 64 (masalan, 200 betlik kitob ≈ 650 bo‘lak ≈ 11 so‘rov) |
 | Saytda bitta savol | 2 (1 embedding + 1 javob) |
 | `python download_books.py` | 0 (OpenRouter ishlatilmaydi) |
 | `python ingest.py` birinchi marta (64 tadan paket) | bo‘laklar soni ÷ 64 (bir necha yuz bo‘lak uchun ≈ 10–15) |
