@@ -1,0 +1,28 @@
+Chapter 1: Introduction
+Autonomation describes a feature of machine design to effect the principle of jidoka (自働化, jidōka) used in the Toyota Production System (TPS) and lean manufacturing. It may be described as "intelligent automation" or "automation with a human touch". This type of automation implements some supervisory functions rather than production functions. At Toyota, this usually means that if an abnormal situation arises, the machine stops and the worker will stop the production line. It is a quality control process that applies the following four principles:Autonomation aims to:
+
+
+
+Chapter 2: Purpose and implementation
+Shigeo Shingo calls autonomation "pre-automation". It separates workers from machines through mechanisms that detect production abnormalities (many machines in Toyota have these). He says there are twenty-three stages between purely manual and fully automated work. To be fully automated machines must be able to detect and correct their own operating problems which is currently not cost-effective. However, ninety percent of the benefits of full automation can be gained by Autonomation.
+The purpose of autonomation is that it makes possible the rapid or immediate address, identification and correction of mistakes that occur in a process. Autonomation relieves the worker of the need to continuously judge whether the operation of the machine is normal; their efforts are now only engaged when there is a problem alerted by the machine. As well as making the work more interesting this is a necessary step if the worker is to be asked later to supervise several machines. The first example of this at Toyota was the auto-activated loom of Sakichi Toyoda that automatically and immediately stopped the loom if the vertical or lateral threads broke or ran out.
+For instance rather than waiting until the end of a production line to inspect a finished product, autonomation may be employed at early steps in the process to reduce the amount of work that is added to a defective product. A worker who is self-inspecting their own work, or source-inspecting the work produced immediately before their work station is encouraged to stop the line when a defect is found. This detection is the first step in Jidoka. A machine performing the same defect detection process is engaged in autonomation.
+Once the line is stopped a supervisor or person designated to help correct problems gives immediate attention to the problem the worker or machine has discovered. To complete Jidoka, not only is the defect corrected in the product where discovered, but the process is evaluated and changed to remove the possibility of making the same mistake again. One solution to the problems can be to insert a "mistake-proofing" device somewhere in the production line. Such a device is known as poka-yoke.
+
+
+
+Chapter 3: Relationship with just-in-time
+Taiichi Ohno and Sakichi Toyoda, originators of the TPS and practices in the manufacturing of textiles, machinery and automobiles considered just-in-time manufacturing and Autonomation as the pillars upon which TPS is built. Jeffrey Liker and David Meier indicate that Jidoka or "the decision to stop and fix problems as they occur rather than pushing them down the line to be resolved later" is a large part of the difference between the effectiveness of Toyota and other companies who have tried to adopt lean manufacturing. Autonomation, therefore can be said to be a key element in successful Lean Manufacturing implementations.
+For just-in-time (JIT) systems, it is absolutely vital to produce with zero defects, or else these defects can disrupt the production process – or the orderly flow of work.
+Jidoka involves the automatic detection of errors or defects during production. When a defect is detected the halting of the production forces immediate attention to the problem.
+The halting causes slowed production but it is believed that this helps to detect a problem earlier and avoids the spread of bad practices.
+
+
+
+Chapter 4: Etymology
+The word "autonomation" (自働化), a loan word from the Sino-Japanese vocabulary, is a portmanteau of "autonomous" and "automation" (自動化), which is written using three kanji characters: 自 (ji, self), 動 (dō, movement), and 化 (ka, -ization). In the Toyota Production System, the second character is replaced with 働 (dō, work), which is a character derived by adding a radical representing "human" to the original kanji for "movement".
+
+
+
+Chapter 5: Zenjidoka
+Zenjidoka (全自働化, zenjidōka) is described as "taking jidoka all the way to the customer" and refers to extended practices in which sales, service and technical staff also have power to interrupt production to correct faults.

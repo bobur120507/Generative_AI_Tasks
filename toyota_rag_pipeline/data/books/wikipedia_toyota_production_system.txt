@@ -1,0 +1,126 @@
+Chapter 1: Introduction
+The Toyota Production System (TPS) is an integrated socio-technical system, developed by Toyota, that comprises its management philosophy and practices. The TPS is a management system that organizes manufacturing and logistics for the automobile manufacturer, including interaction with suppliers and customers. The system is a major precursor of the more generic "lean manufacturing". Taiichi Ohno and Eiji Toyoda, Japanese industrial engineers, developed the system between 1948 and 1975.
+Originally called "Just-in-time production", it builds on the approach created by the founder of Toyota, Sakichi Toyoda, his son Kiichiro Toyoda, and the engineer Taiichi Ohno. The principles underlying the TPS are embodied in The Toyota Way.
+
+
+
+Chapter 2: Goals
+The main objectives of the TPS are to design out overburden (muri) and inconsistency (mura), and to eliminate waste (muda). The most significant effects on process value delivery are achieved by designing a process capable of delivering the required results smoothly; by designing out "mura" (inconsistency). It is also crucial to ensure that the process is as flexible as necessary without stress or "muri" (overburden) since this generates "muda" (waste). Finally the tactical improvements of waste reduction or the elimination of muda are very valuable. There are eight kinds of muda that are addressed in the TPS:
+
+Waste of overproduction (largest waste)
+Waste of time on hand (waiting)
+Waste of transportation
+Waste of processing itself
+Waste of excess inventory
+Waste of movement
+Waste of making defective products
+Waste of underutilized workers
+
+
+
+Chapter 3: Concept
+Toyota Motor Corporation published an official description of TPS for the first time in 1992; this booklet was revised in 1998. In the foreword it was said: "The TPS is a framework for conserving resources by eliminating waste. People who participate in the system learn to identify expenditures of material, effort and time that do not generate value for customers and furthermore we have avoided a 'how-to' approach. The booklet is not a manual. Rather it is an overview of the concepts, that underlie our production system. It is a reminder that lasting gains in productivity and quality are possible whenever and wherever management and employees are united in a commitment to positive change". TPS is grounded on two main conceptual pillars:
+
+Just-in-time – meaning "Making only what is needed, only when it is needed, and only in the amount that is needed"
+Jidoka –  (Autonomation) meaning "Automation with a human touch"
+Toyota has developed various tools to transfer these concepts into practice and apply them to specific requirements and conditions in the company and business.
+
+
+
+Chapter 4: Origins
+Toyota has long been recognized as a leader in the automotive manufacturing and production industry.
+Toyota received their inspiration for the system not from the American automotive industry (at that time the world's largest by far), but from visiting a supermarket.  The idea of just-in-time production was originated by Kiichiro Toyoda, founder of Toyota. The question was how to implement the idea.  In reading descriptions of American supermarkets, Ohno saw the supermarket as the model for what he was trying to accomplish in the factory. A customer in a supermarket takes the desired amount of goods off the shelf and purchases them. The store restocks the shelf with enough new product to fill up the shelf space.  Similarly, a work-center that needed parts would go to a "store shelf" (the inventory storage point) for the particular part and "buy" (withdraw) the quantity it needed, and the "shelf" would be "restocked" by the work-center that produced the part, making only enough to replace the inventory that had been withdrawn.
+While low inventory levels are a key outcome of the System, an important element of the philosophy behind its system is to work intelligently and eliminate waste so that only minimal inventory is needed. Many Western businesses, having observed Toyota's factories, set out to attack high inventory levels directly without understanding what made these reductions possible. The act of imitating without understanding the underlying concept or motivation may have led to the failure of those projects.
+
+
+
+Chapter 5: Principles
+
+The underlying principles, called the Toyota Way, have been outlined by Toyota as follows:
+
+
+
+Continuous improvement
+Challenge  (We form a long-term vision, meeting challenges with courage and creativity to realize our dreams.)
+Kaizen  (We improve our business operations continuously, always driving for innovation and evolution).
+Genchi Genbutsu  (Go to the source to find the facts to make correct decisions).
+
+
+
+Respect for people
+Respect (We respect others, make every effort to understand each other, take responsibility and do our best to build mutual trust.)
+Teamwork  (We stimulate personal and professional growth, share the opportunities of development and maximize individual and team performance.)
+Just-in-Time (JIT): produce what is needed, when it’s needed.
+Jidoka (Automation with a human touch): stop production when problems occur.
+External observers have summarized the principles of the Toyota Way as:
+
+
+
+The right process will produce the right results
+Create continuous process flow to bring problems to the surface.
+Use the "pull" system to avoid overproduction.
+Level out the workload (heijunka). (Work like the tortoise, not the hare.)
+Build a culture of stopping to fix problems, to get quality right from the start. (Jidoka)
+Standardized tasks are the foundation for continuous improvement and employee empowerment.
+Use visual control so no problems are hidden.
+Use only reliable, thoroughly tested technology that serves your people and processes.
+
+
+
+Add value to the organization by developing your people and partners
+Grow leaders who thoroughly understand the work, live the philosophy, and teach it to others.
+Develop exceptional people and teams who follow your company's philosophy.
+Respect your extended network of partners and suppliers by challenging them and helping them improve.
+
+
+
+Continuously solving root problems drives organizational learning
+Go and see for yourself to thoroughly understand the situation (Genchi Genbutsu, 現地現物);
+Make decisions slowly by consensus, thoroughly considering all options (Nemawashi, 根回し); implement decisions rapidly;
+Become a learning organization through relentless reflection (Hansei, 反省) and continuous improvement and never stop (Kaizen, 改善).
+It is a system for thorough waste elimination, where waste refers to anything that does not advance the process or increase added value. While obvious forms of waste are commonly addressed, less recognizable forms often remain unexamined or unaddressed.
+People had resigned themselves to certain problems, had become hostage to routine and abandoned the practice of problem-solving. This going back to basics, exposing the real significance of problems and then making fundamental improvements, can be witnessed throughout the Toyota Production System.
+The principles of the Toyota Production System have been compared to production methods in the industrialization of construction.
+
+
+
+Chapter 6: Sharing
+Toyota originally began sharing TPS with its parts suppliers in the 1990s. Because of interest in the program from other organizations, Toyota began offering instruction in the methodology to others. Toyota has even "donated" its system to charities, providing its engineering staff and techniques to non-profits in an effort to increase their efficiency and thus ability to serve people. For example, Toyota assisted the Food Bank For New York City to significantly decrease waiting times at soup kitchens, packing times at a food distribution center, and waiting times in a food pantry. Toyota announced on June 29, 2011 the launch of a national program to donate its Toyota Production System expertise towards nonprofit organizations with goal of improving their operations, extending their reach, and increasing their impact. By September, less than three months later, SBP, a disaster relief organization based out of New Orleans, reported that their home rebuilds had been reduced from 12 to 18 weeks, to 6 weeks. Additionally, employing Toyota methods (like kaizen) had reduced construction errors by 50 percent. The company included SBP among its first 20 community organizations, along with AmeriCorps.
+
+
+
+Chapter 7: Workplace Management
+Taiichi Ohno's Workplace Management (2007) outlines in 38 chapters how to implement the TPS. Some important concepts are:
+
+Chapter 1 Wise Mend Their Ways - See the Analects of Confucius for further information.
+Chapter 4 Confirm Failures With Your Own Eyes
+Chapter 11 Wasted Motion Is Not Work
+Chapter 15 Just In Time - Phrase invented by Kiichiro Toyoda - the first president of Toyota. There is conflict on what the actual English translation of what "just in time" really means. Taiichi Ohno quoted from the book says " 'Just In Time' should be interpreted to mean that it is a problem when parts are delivered too early".
+Chapter 23 How To Produce At A Lower Cost - "One of the main fundamentals of the Toyota System is to make 'what you need, in the amount you need, by the time you need it', but to tell the truth there is another part to this and that is 'at lower cost'.  But that part is not written down." World economies, events, and each individual job also play a part in production specifics.
+
+
+
+Chapter 8: Commonly used terminology
+Andon (行灯) (English: A large lighted board used to alert floor supervisors to a problem at a specific station. Literally: Signboard)
+Chaku-Chaku (着々 or 着着) (English: Load-Load)
+Gemba (現場) (English: The actual place, the place where the real work is done; On site)
+Genchi Genbutsu (現地現物) (English: Go and see for yourself)
+Hansei (反省) (English: Self-reflection)
+Heijunka (平準化) (English: Production Smoothing)
+Jidoka (自働化) (English: Autonomation - automation with human intelligence)
+Just-in-Time (ジャストインタイム "Jasutointaimu") (JIT)
+Kaizen (改善) (English: Continuous Improvement)
+Kanban (看板, also かんばん) (English: Sign, Index Card)
+Manufacturing supermarket where all components are available to be withdrawn by a process
+Muda (無駄, also ムダ) (English: Waste)
+Mura (斑 or ムラ) (English: Unevenness)
+Muri (無理) (English: Overburden)
+Nemawashi (根回し) (English: Laying the groundwork, building consensus, literally: Going around the roots)
+Obeya (大部屋) (English: Manager's meeting. Literally: Large room, war room, council room)
+Poka-yoke (ポカヨケ) (English: fail-safing, bulletproofing - to avoid (yokeru) inadvertent errors (poka)
+Seibi (English: To Prepare)
+Seiri (整理) (English: Sort, removing whatever isn't necessary.)
+Seiton (整頓) (English: Organize)
+Seiso (清掃) (English: Clean and inspect)
+Seiketsu (清潔) (English: Standardize)
+Shitsuke (躾) (English: Sustain)

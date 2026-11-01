@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kitob RAG — kitobingiz bilan suhbat</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">📚</span>
+    <div>
+      <h1>Kitob RAG</h1>
+      <p>Kitob yuklang — tizim uni o‘qiydi, bo‘laklaydi va savollaringizga manba bilan javob beradi</p>
+    </div>
+  </div>
+  <div class="status" id="status" title="Tizim holati">…</div>
+</header>
+
+<main class="layout">
+  <!-- ============ Sidebar: upload + library ============ -->
+  <aside class="sidebar">
+    <section class="card">
+      <h2>1. Kitob yuklash</h2>
+      <label class="dropzone" id="dropzone" for="file-input">
+        <input type="file" id="file-input" accept=".pdf,.docx,.md,.txt" multiple hidden>
+        <span class="dz-icon" aria-hidden="true">⬆️</span>
+        <strong>Faylni shu yerga tashlang</strong>
+        <span>yoki bosib tanlang</span>
+        <small>PDF · DOCX · MD · TXT — {{ max_mb }} MB gacha</small>
+      </label>
+      <input type="text" id="title-input" class="input" placeholder="Kitob nomi (ixtiyoriy)" maxlength="200">
+      <div id="upload-msg" class="msg" role="status"></div>
+    </section>
+
+    <section class="card library">
+      <div class="row-between">
+        <h2>2. Kutubxona</h2>
+        <span class="muted" id="library-count"></span>
+      </div>
+      <p class="muted small">Belgilangan kitoblar ichidan qidiriladi.</p>
+      <ul id="book-list" class="book-list"></ul>
+      <p id="library-empty" class="empty">Hali kitob yo‘q. Yuqoriga fayl tashlang.</p>
+    </section>
+  </aside>
+
+  <!-- ============ Chat ============ -->
+  <section class="chat card">
+    <div class="row-between">
+      <h2>3. Savol bering</h2>
+      <label class="muted small">Bo‘laklar soni (k):
+        <select id="k-select" class="select">
+          <option>2</option><option>3</option><option selected>4</option><option>6</option><option>8</option>
+        </select>
+      </label>
+    </div>
+
+    <div id="messages" class="messages" aria-live="polite">
+      <div class="welcome" id="welcome">
+        <h3>Qanday ishlaydi?</h3>
+        <ol>
+          <li><b>Yuklash</b> — PDF, Word yoki Markdown kitob.</li>
+          <li><b>Qayta ishlash</b> — matn ajratiladi, ≈800 belgilik bo‘laklarga bo‘linadi va vektorga aylantiriladi.</li>
+          <li><b>Savol</b> — tizim eng mos bo‘laklarni topadi, bepul model ular asosida javob yozadi va manbani ko‘rsatadi.</li>
+        </ol>
+        <p class="muted small">Masalan:</p>
+        <div class="suggestions">
+          <button class="chip" type="button">What are the two pillars of the Toyota Production System?</button>
+          <button class="chip" type="button">Kanban nima?</button>
+          <button class="chip" type="button">Summarize the main idea of this book.</button>
+        </div>
+      </div>
+    </div>
+
+    <form id="ask-form" class="ask">
+      <textarea id="question" class="input" rows="2" maxlength="2000"
+                placeholder="Savolingizni yozing… (Enter — yuborish, Shift+Enter — yangi qator)"></textarea>
+      <button id="ask-btn" class="btn primary" type="submit">Yuborish</button>
+    </form>
+    <p class="muted small" id="scope-hint"></p>
+  </section>
+</main>
+
+<!-- ============ Book details ============ -->
+<dialog id="details" class="dialog">
+  <form method="dialog" class="row-between">
+    <h2 id="d-title">Kitob</h2>
+    <button class="btn ghost" aria-label="Yopish">✕</button>
+  </form>
+  <div id="d-stats" class="stats"></div>
+  <h3>Bo‘lak uzunliklari taqsimoti</h3>
+  <div id="d-hist" class="hist"></div>
+  <h3>Birinchi bo‘laklar</h3>
+  <div id="d-preview"></div>
+</dialog>
+
+<template id="book-tpl">
+  <li class="book">
+    <label class="book-check"><input type="checkbox" checked></label>
+    <div class="book-main">
+      <div class="book-title"></div>
+      <div class="book-meta muted small"></div>
+      <div class="progress" hidden><div class="bar"></div></div>
+      <div class="book-error small" hidden></div>
+    </div>
+    <div class="book-actions">
+      <button class="icon-btn info" type="button" title="Batafsil">ℹ️</button>
+      <button class="icon-btn retry" type="button" title="Qayta urinish" hidden>↻</button>
+      <button class="icon-btn delete" type="button" title="O‘chirish">🗑️</button>
+    </div>
+  </li>
+</template>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

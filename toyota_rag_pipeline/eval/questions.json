@@ -1,0 +1,20 @@
+[
+  {"question": "What are the two pillars of the Toyota Production System?", "book": ["Wikipedia: Toyota Production System", "Toyota Production System (Toyota official website)", "Toyota Integrated Report 2023"], "expect": "jidoka"},
+  {"question": "Who is considered the father of the Toyota Production System?", "book": ["Wikipedia: Taiichi Ohno", "Wikipedia: Toyota Production System"], "expect": "Ohno"},
+  {"question": "What is just-in-time manufacturing?", "book": ["Wikipedia: Just-in-time manufacturing", "Toyota Production System (Toyota official website)"], "expect": "need"},
+  {"question": "What is kanban and how does it work?", "book": ["Wikipedia: Kanban"], "expect": "card"},
+  {"question": "What does autonomation mean?", "book": ["Wikipedia: Autonomation"], "expect": "human"},
+  {"question": "Which inventor's automatic loom inspired jidoka?", "book": ["Wikipedia: Autonomation", "Wikipedia: History of Toyota", "Toyota Production System (Toyota official website)", "Toyota Integrated Report 2023"], "expect": "Sakichi"},
+  {"question": "What is kaizen?", "book": ["Wikipedia: Kaizen"], "expect": "improvement"},
+  {"question": "Who wrote The Toyota Way and what are its principles?", "book": ["Wikipedia: The Toyota Way"], "expect": "Liker"},
+  {"question": "What are the seven types of waste (muda) in TPS?", "book": ["Wikipedia: Toyota Production System"], "expect": "overproduction"},
+  {"question": "When was Toyota Motor Corporation founded?", "book": ["Wikipedia: History of Toyota", "Toyota Integrated Report 2023"], "expect": "1937"},
+  {"question": "Who was Kiichiro Toyoda?", "book": ["Wikipedia: History of Toyota", "Toyota Integrated Report 2023", "Wikipedia: Taiichi Ohno"], "expect": "Kiichiro"},
+  {"question": "How does the power split device in Hybrid Synergy Drive work?", "book": ["Wikipedia: Hybrid Synergy Drive"], "expect": "planetary"},
+  {"question": "When was the first Toyota Prius released?", "book": ["Wikipedia: Toyota Prius"], "expect": "1997"},
+  {"question": "What is Toyota's multi-pathway strategy for carbon neutrality?", "book": ["Toyota Integrated Report 2023"], "expect": "multi-pathway"},
+  {"question": "What is Toyota's mission?", "book": ["Toyota Integrated Report 2023"], "expect": "happiness"},
+  {"question": "What is an andon cord?", "book": ["Wikipedia: Toyota Production System", "Wikipedia: Autonomation", "Toyota Production System (Toyota official website)"], "expect": "andon"},
+  {"question": "What is heijunka or production leveling?", "book": ["Wikipedia: Toyota Production System", "Wikipedia: Just-in-time manufacturing", "Wikipedia: Kanban"], "expect": "level"},
+  {"question": "What does genchi genbutsu mean?", "book": ["Wikipedia: The Toyota Way", "Wikipedia: Toyota Production System"], "expect": "genchi"}
+]
