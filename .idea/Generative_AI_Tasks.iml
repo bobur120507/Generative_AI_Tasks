@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/toyota_rag_pipeline" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/toyota_rag_pipeline/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/toyota_rag_pipeline/chroma_toyota_db" />
+      <excludeFolder url="file://$MODULE_DIR$/toyota_rag_pipeline/data/library" />
     </content>
     <orderEntry type="jdk" jdkName="~/Generative_AI_Tasks/.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
