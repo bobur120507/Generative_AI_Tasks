@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modda — qonunchilikdan manbali javob</title>
+  <meta name="description" content="Oʻzbekiston qonunchiligi boʻyicha savollarga Lex.uz maʼlumotlari asosida manbali javob. Rasmiy manba emas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400&family=Onest:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-state="empty">
+
+<header class="topbar">
+  <a class="brand" href="./" aria-label="Modda — bosh sahifa">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-name">Modda</span>
+  </a>
+  <span class="topbar-note">Lex.uz maʼlumotlari asosida, rasmiy manba emas</span>
+  <span class="status" id="status" role="status">
+    <span class="status-dot" aria-hidden="true"></span>
+    <span id="status-text">Baza tekshirilmoqda</span>
+  </span>
+</header>
+
+<main id="main">
+
+  <!-- Hero: the 3D book and the question field -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="scene" aria-hidden="true">
+      <div class="book" id="book">
+        <div class="book-back"></div>
+        <div class="book-block">
+          <div class="leaf" style="--i:5"></div>
+          <div class="leaf" style="--i:4"></div>
+          <div class="leaf" style="--i:3"></div>
+          <div class="leaf" style="--i:2"></div>
+          <div class="leaf" style="--i:1"></div>
+        </div>
+        <div class="book-spine"></div>
+        <div class="book-edge"></div>
+        <div class="book-cover">
+          <div class="cover-face">
+            <span class="cover-title">Modda</span>
+            <span class="cover-sub">Oʻzbekiston qonunchiligi</span>
+            <span class="cover-rule"></span>
+          </div>
+          <div class="cover-inside"></div>
+        </div>
+      </div>
+      <div class="book-shadow"></div>
+    </div>
+
+    <div class="hero-copy">
+      <h1 id="hero-title">Qonunchilikdan aniq javob — har bir gapning manbasi bilan</h1>
+      <p class="hero-lead">Savolingizni oʻzbek tilida yozing. Javobdagi har bir gap Lex.uz’dagi moddaga bogʻlanadi; ishonchli manba topilmasa, tizim buni ochiq aytadi.</p>
+    </div>
+
+    <form class="ask" id="ask-form" autocomplete="off">
+      <label class="visually-hidden" for="question">Savolingiz</label>
+      <textarea id="question" rows="1" maxlength="1000" placeholder="Masalan: oʻquv taʼtili necha kun beriladi?"></textarea>
+      <button class="ask-btn" id="ask-btn" type="submit">Soʻrash</button>
+    </form>
+
+    <ul class="examples" id="examples" aria-label="Namuna savollar"></ul>
+    <p class="demo-note" id="demo-note" hidden>Server ulanmagan — sahifa namuna maʼlumotlar bilan ishlayapti.</p>
+  </section>
+
+  <!-- Progress while the system works -->
+  <section class="progress" id="progress" aria-live="polite" hidden>
+    <ol class="steps">
+      <li data-step="search">Moddalar qidirilmoqda</li>
+      <li data-step="write">Javob yozilmoqda</li>
+      <li data-step="verify">Iqtiboslar tekshirilmoqda</li>
+    </ol>
+  </section>
+
+  <!-- The answer, with margin notes -->
+  <section class="result" id="result" aria-live="polite" hidden>
+    <div class="result-grid">
+      <article class="answer">
+        <h2 class="answer-q" id="answer-q"></h2>
+        <div class="answer-body" id="answer-body"></div>
+        <div class="answer-foot" id="answer-foot"></div>
+      </article>
+      <aside class="notes" id="notes" aria-label="Manbalar"></aside>
+      <svg class="links" id="links" aria-hidden="true"></svg>
+    </div>
+    <form class="ask ask-again" id="ask-again" autocomplete="off">
+      <label class="visually-hidden" for="question-2">Keyingi savol</label>
+      <textarea id="question-2" rows="1" maxlength="1000" placeholder="Keyingi savolingizni yozing"></textarea>
+      <button class="ask-btn" type="submit">Soʻrash</button>
+    </form>
+  </section>
+
+</main>
+
+<!-- Full article drawer -->
+<div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" hidden>
+  <div class="drawer-head">
+    <div>
+      <p class="drawer-doc" id="drawer-doc"></p>
+      <h2 id="drawer-title"></h2>
+    </div>
+    <button class="icon-btn" id="drawer-close" type="button" aria-label="Yopish">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+  <div class="drawer-foot" id="drawer-foot"></div>
+</aside>
+
+<footer class="footer">
+  <p>Modda rasmiy yuridik maslahat bermaydi. Rasmiy matn — Lex.uz’dagi hujjat. Maʼlumotlar: Lex.uz va ochiq korpus <a href="https://huggingface.co/datasets/sukhrobnurali/uzbek-legal-corpus">uzbek-legal-corpus</a>.</p>
+</footer>
+
+<script src="mock-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
